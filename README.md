@@ -1,7 +1,5 @@
 # Redux Friends
 
-#initial push
-
 Topics:
 
 * React Router
