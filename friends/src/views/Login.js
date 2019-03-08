@@ -37,13 +37,13 @@ class Login extends React.Component {
             type="text"
             name="username"
             value={this.state.credentials.username}
-            onChange={this.handleChange}
+            onChange={this.changeHandler}
           />
           <input
             type="password"
             name="password"
             value={this.state.credentials.password}
-            onChange={this.handleChange}
+            onChange={this.changeHandler}
           />
           <button>Log in</button>
         </form>
