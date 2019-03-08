@@ -12,11 +12,13 @@ class App extends Component {
       <Router>
         <div className="app">
           <nav>
+            {/* navigation links */}
             <NavLink to="/">Home</NavLink>
             <NavLink to="/friends">Friends</NavLink>
             <NavLink to="/login">Sign In</NavLink>
           </nav>
           <h1>Friends App</h1>
+          {/* routes directed */}
           <Route exact path="/" component={Home} />
           <Route path="/login" component={Login} />
           <LoginRoute exact path="/friends" component={Friends} />

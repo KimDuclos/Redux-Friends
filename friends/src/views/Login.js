@@ -11,7 +11,7 @@ class Login extends React.Component {
     }
   };
 
-  handleChange = e => {
+  changeHandler = e => {
     this.setState({
       credentials: {
         ...this.state.credentials,
@@ -28,6 +28,7 @@ class Login extends React.Component {
     });
   };
 
+  // LOGIN FORM
   render() {
     return (
       <div>
